@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Doctor's Appointment",
+      "day": "Feb 15th at 2:30PM",
+      "reminder": true
+    },
+    {
+      "text": "Love Yourself",
+      "day": "Forever <3",
+      "reminder": true,
+      "id": 4
+    }
+  ]
+}

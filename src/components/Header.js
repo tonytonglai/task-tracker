@@ -3,16 +3,16 @@ import Button from "./Button"
 
 // const class can either return const Component = (props) => {}, or you can DESTRUCTURE
 // and return const Component = ({propsItem}) => {}
-const Header = ({title}) => {
-    
-    const onClick = (e) => {
-        console.log("peepeee")
-    }
+const Header = ({title, toggleAdd, showAdd}) => {
 
     return (
         <header className="header">
             <h1>{title}</h1> 
-            <Button color="green" text="Add" onClick={onClick}/>
+            <Button 
+                color={showAdd ? "red" : "green"}
+                text={showAdd ? "Close" : "Add"}
+                onClick={() => toggleAdd()}
+            />
         </header>
     )
 }
