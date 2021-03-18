@@ -11,6 +11,12 @@
       "day": "Forever <3",
       "reminder": true,
       "id": 4
+    },
+    {
+      "text": "Study for your exam lmao",
+      "day": "Today",
+      "reminder": true,
+      "id": 5
     }
   ]
 }
